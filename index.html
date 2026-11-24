@@ -86,7 +86,7 @@ const SUPABASE_URL = 'https://yjdumalkhkjujcflecmc.supabase.co';   // ← isi
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlqZHVtYWxraGtqdWpjZmxlY21jIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUxNDE0NzMsImV4cCI6MjExMDcxNzQ3M30.Zr8V71wh2-juFeDh6D549qlTooTcb3rO118rCYriww0';                     // ← anon JWT legacy, bukan sb_publishable_
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
-const TZ = 'Asia/Makassar';
+const TZ = 'Asia/Jakarta';
 const tglHariIni = () => new Date().toLocaleDateString('en-CA', { timeZone: TZ });
 
 let siswaList = [];
